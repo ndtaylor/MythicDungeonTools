@@ -114,6 +114,7 @@ local characteristicsSpells = {
   ["Incapacitate"] = {
     [1776] = true, --Gouge
     [115078] = true, --Paralysis
+    [99] = true, -- Incapacitating Roar
   },
   ["Repentance"] = {
     [20066] = true,
@@ -170,7 +171,9 @@ local characteristicsSpells = {
     [205364] = true,
   },
   ["Grip"] = {},
-  ["Knock"] = {},
+  ["Knock"] = {
+    [61391] = true, -- Typhoon
+  },
   ["Silence"] = {
     [15487] = true, --Silence
     [204490] = true, --Sigil of Silence
